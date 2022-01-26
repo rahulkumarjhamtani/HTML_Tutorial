@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        
+        #div 
+        {
+            width: 500px;
+            height: 280px;
+            border:2px solid black;
+            margin: auto;
+            margin-top:20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="maindiv">
+        <img src="tree.jpg" alt="image">
+    </div> -->
+
+    <div id="div">
+        <img src="tree.jpg" class="img-fluid" alt="" />
+    </div>
+    <div id="div">
+        <img src="paris.jpg" class="img-fluid" alt="" />
+    </div>
+    <div id="div">
+        <img src="https://images2nwck8c0zc.cdn.e2enetworks.net/sangeethaecommerce/product_image/product_index_page/img_20210918_972487cae19a1b5572dced53ce299334.jpg" class="img-fluid" alt="" />
+    </div>
+    
+    <!-- <script type="text/javascript">
+    (function() {
+    
+    var img = document.getElementById('container').firstChild;
+    img.onload = function() {
+        if(img.height > img.width) {
+            img.height = '100%';
+            img.width = 'auto';
+        }
+    };
+    
+    }());
+    </script> -->
+</body>
+</html>
